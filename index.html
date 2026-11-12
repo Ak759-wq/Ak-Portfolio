@@ -3,48 +3,92 @@
 <html>
 <head>
     <title>Aditya Kumar | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav>
-        <h2>Portfolio</h2>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <h2>Aditya.</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        
     </nav>
 
-   
-    <section class="hero">
-        <p>Hello, I'm</p>
+    <section class="hero" >
+        <div class="avatar">AK</div>
+        <p>Hello, welcome to my portfolio!</p>
+        <h1>I'm Aditya Kumar</h1>
+        <h3>Computer Science Student | Aspiring Software Developer</h3>
 
-         <h1>Aditya Kumar</h1>
+        <p>
+            A first-year CSE student at Bosscoder School of Technology,
+            specializing in AI & ML. I enjoy building applications,
+            exploring new technologies and solving real-world problems.
+        </p>
 
-        <h3>Computer Science Student | Aspiring Developer</h3>
-
-       <p>I'm a first-year CSE student at Bosscoder School of Technology,
-        specializing in AI & ML.
-       </p>
-       <p>I enjoy building web applications, exploring AI technologies,
-        solving problems.</p>
-
-    <a href="#projects" class="btn">Explore My Projects</a>
-</section>
-
+        <a href="#projects" class="btn">Explore My Projects</a>
+        <a href="https://github.com/Ak759-wq" class="btn secondary">GitHub</a>
+    </section>
 
     <section id="about">
         <h2>About Me</h2>
+
         <p>
-            I'm a first-year CSE student at Bosscoder School of Technology,
-            specializing in AI & ML. I'm currently learning programming
-            and web development.
+            I'm a curious learner interested in software development,
+            artificial intelligence and technology. I enjoy turning
+            ideas into working projects and learning by building.
+
+            Currently, I'm improving my programming, web development
+            and problem-solving skills.
         </p>
+
+        <h3>My Interests</h3>
+        <p>
+            Web Development | Artificial Intelligence |
+            Problem Solving | Exploring New Technologies
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>Bosscoder School of Technology</h3>
+            <p>B.Tech / Computer Science and Engineering</p>
+            <p>Specialization: Artificial Intelligence & Machine Learning</p>
+            <p>2026 - 2030</p>
+        </div>
     </section>
 
     <section id="skills">
         <h2>My Skills</h2>
-        <p>HTML | CSS | Java | Python | Git | GitHub</p>
+
+        <h3>Technical Skills</h3>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>AI Tools</span>
+        </div>
+
+        <h3>Personal Skills</h3>
+        <div class="skills">
+            <span>Problem Solving</span>
+            <span>Creative Thinking</span>
+            <span>Continuous Learning</span>
+        </div>
     </section>
 
     <section id="projects">
@@ -52,32 +96,77 @@
 
         <div class="project">
             <h3>BrightLoop</h3>
-            <p>A platform to manage subscriptions and recurring payments.</p>
-            <a href="https://brightloop-zeta.vercel.app/">View Project</a>
+            <p>
+                A subscription management platform for tracking
+                recurring payments, billing and invoices.
+            </p>
+            <p class="tech">Next.js | TypeScript | Firebase</p>
+            <a href="https://brightloop-zeta.vercel.app/">Live Demo</a>
+            <a href="https://github.com/Ak759-wq/brightloop">GitHub</a>
         </div>
 
         <div class="project">
             <h3>GapLens</h3>
-            <p>An AI-powered tool that identifies information gaps and contradictions.</p>
-            <a href="https://github.com/Ak759-wq/gaplens">View Project</a>
+            <p>
+                An AI-powered research tool that identifies
+                information gaps, contradictions and outdated information.
+            </p>
+            <p class="tech">Next.js | TypeScript | AI</p>
+            <a href="https://github.com/Ak759-wq/gaplens">GitHub</a>
         </div>
 
         <div class="project">
             <h3>SwasthyaSakhi</h3>
-            <p>A health-focused web application.</p>
-            <a href="https://swasthyasakhi-zeta.vercel.app/">View Project</a>
+            <p>
+                A health-focused web application designed to make
+                health information more accessible.
+            </p>
+            <p class="tech">React | TypeScript | Node.js</p>
+            <a href="https://swasthyasakhi-zeta.vercel.app/">Live Demo</a>
+            <a href="https://github.com/Ak759-wq/swasthyasakhi">GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>ScholarOS</h3>
+            <p>
+                A student productivity platform for managing
+                academic activities, schedules and goals.
+            </p>
+            <p class="tech">React | Vite | Supabase</p>
+            <a href="https://github.com/Ak759-wq/orbit">GitHub</a>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+
+        <div class="card">
+            <h3>Finora - AI Olympiad</h3>
+            <p>Secured 3rd place for a financial literacy application.</p>
         </div>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Let's connect!</p>
-        <a href="https://github.com/Ak759-wq">GitHub</a>
+        <h2>Let's Connect</h2>
+        <p>Have an idea or want to collaborate? Feel free to reach out.</p>
+
+        <a href="https://github.com/Ak759-wq">Visit My GitHub</a>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+            <p id="formMessage"></p>
+        </form>
     </section>
 
     <footer>
         <p>© 2026 Aditya Kumar</p>
+        <p>Built with HTML, CSS and JavaScript.</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

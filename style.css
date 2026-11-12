@@ -5,48 +5,70 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: floralwhite;
     color: darkslategray;
-    text-align: center;
+    line-height: 1.6;
 }
-
-
 
 nav {
     background-color: white;
-    padding: 20px 10%;
+    padding: 18px 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 nav h2 {
-    color: black;
+    color: darkolivegreen;
 }
 
 nav a {
     color: darkslategray;
     text-decoration: none;
+    margin: 8px;
 }
 
 nav a:hover {
     color: seagreen;
 }
 
+button {
+    cursor: pointer;
+}
+
+
+
 .hero {
     background-color: honeydew;
     text-align: center;
-    padding: 100px 20px;
-    height: 70vh;
-    widht: 100%;
+    padding: 70px 10%;
+}
+
+.avatar {
+    background-color: lightgreen;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
 
 .hero h1 {
-    font-size: 45px;
-    color:blueviolet;
-    margin: 50px 50px;
+    font-size: 42px;
+    color: neongreen;
+    margin: 15px;
 }
 
 .hero h3 {
@@ -54,56 +76,94 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-.hero a {
-    
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 70px;
+.hero p {
+    max-width: 650px;
+    margin: 10px auto;
 }
+
 .btn {
     display: inline-block;
     background-color: darkolivegreen;
-    
     color: white;
-    padding: 12px 22px;
-    margin-top: 20px;
-    text-decoration: none;
+    padding: 10px 20px;
+    margin: 15px 5px;
+    border: none;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.secondary {
+    background-color: white;
+    color: darkolivegreen;
+    border: 1px solid darkolivegreen;
 }
 
 section {
-    padding: 50px 10%;
+    padding: 45px 10%;
 }
 
 section h2 {
-    color:black;
+    color: darkolivegreen;
     margin-bottom: 20px;
 }
 
-#skills p {
-    background-color: honeydew;
-    padding: 18px;
-    border-radius: 5px;
+section h3 {
+    margin: 15px 0;
 }
 
-.project {
+.card, .project {
     background-color: white;
-    border: 1px solid gainsboro;
     padding: 22px;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
+    border: 1px solid gainsboro;
     border-radius: 5px;
 }
 
-.project h3 {
-    color: darkolivegreen;
-    margin-bottom: 10px;
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.skills span {
+    background-color: honeydew;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+.tech {
+    color: seagreen;
+    margin: 12px 0;
 }
 
 .project a, #contact a {
     color: seagreen;
     text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
+    margin-right: 15px;
+}
+
+#contact {
+    background-color: honeydew;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    height: 120px;
 }
 
 footer {
@@ -112,4 +172,32 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.dark {
+    background-color: darkslategray;
+    color: white;
+}
+
+.dark nav,
+.dark .card,
+.dark .project {
+    background-color: dimgray;
+}
+
+.dark .hero,
+.dark #contact {
+    background-color: darkslategray;
+}
+
+.dark section h2,
+.dark .hero h1 {
+    color: lightgreen;
+}
+
+.dark nav a,
+.dark .project p,
+.dark .card p {
+    color: white;
+}
+
 
