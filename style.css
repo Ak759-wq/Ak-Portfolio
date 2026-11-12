@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: floralwhite;
+    color: darkslategray;
+    text-align: center;
+}
+
+
+
+nav {
+    background-color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: black;
+}
+
+nav a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: seagreen;
+}
+
+.hero {
+    background-color: honeydew;
+    text-align: center;
+    padding: 100px 20px;
+    height: 70vh;
+    widht: 100%;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color:blueviolet;
+    margin: 50px 50px;
+}
+
+.hero h3 {
+    color: seagreen;
+    margin-bottom: 15px;
+}
+
+.hero a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.btn {
+    display: inline-block;
+    background-color: darkolivegreen;
+    
+    color: white;
+    padding: 12px 22px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+section h2 {
+    color:black;
+    margin-bottom: 20px;
+}
+
+#skills p {
+    background-color: honeydew;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 22px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: darkolivegreen;
+    margin-bottom: 10px;
+}
+
+.project a, #contact a {
+    color: seagreen;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
